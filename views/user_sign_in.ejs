@@ -1,0 +1,23 @@
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" href="/css/user_sign_in.css">
+
+<div class="login-block">
+    <form action="/users/create-session" method="post">
+        <input type="email" name="email" placeholder="Your Email" id="username" required>
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <input type="submit" value="Sign In" id="submit">
+    </form>
+    <div id="or">
+        OR
+    </div>
+    <a href="/users/auth/google">
+        <div class="google-btn">
+            <div class="google-icon-wrapper">
+              <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+            </div>
+            <p class="btn-text"><b>Sign in with google</b></p>
+          </div>
+    </a>
+
+</div>

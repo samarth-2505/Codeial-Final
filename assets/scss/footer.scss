@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(108, 117, 125);
+    color: white;
+    ul{
+        list-style-type: none;
+        li{
+            margin-bottom: 2px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            
+        }
+    }
+    p,ul{
+        margin-top: 2%;
+    }
+}

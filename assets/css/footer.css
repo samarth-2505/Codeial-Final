@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #6c757d;
+  color: white; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      margin-bottom: 2px; }
+      footer ul li a {
+        color: white;
+        text-decoration: none; }
+  footer p, footer ul {
+    margin-top: 2%; }
